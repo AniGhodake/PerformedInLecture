@@ -1,6 +1,6 @@
 #include <iostream>
 #include "2.h"
-
+ 
 using namespace std;
 
 void fun()
@@ -10,6 +10,7 @@ void fun()
 
 int main()
 {
+    int i;
     fun();
     funFrom2();
     return 0;
