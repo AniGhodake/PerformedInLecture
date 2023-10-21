@@ -8,6 +8,8 @@ using namespace std;
 // }
 
 
+
+
 //function delclaration
 // void printLine();
 
@@ -15,15 +17,21 @@ using namespace std;
 // 	cout << "i am inside A" << endl;
 // }
 
+
+
 // void printSum(int a, int b, int c) {
 // 	int answer = a + b + c;
 // 	cout << "Sum is: " << answer << endl;
 // }
 
+
+
 // int printSum(int a, int b, int c) {
 // 	int ans = a + b + c;
 // 	return ans;
 // }
+
+
 
 
 // void messagePrint() {
@@ -32,6 +40,8 @@ using namespace std;
 // 	cout << "Msg 2" << endl;
 // 	return;
 // }
+
+
 
 // void printMaximum(int num1, int num2, int num3) {
 // 	if(num1 >= num2 && num1 >= num3) {
@@ -46,6 +56,8 @@ using namespace std;
 	
 // }
 
+
+
 int printMaximum(int n1, int n2, int n3) {
 	int ans1 = max(n1,n2);
 	int finalAns = max(ans1, n3);
@@ -54,11 +66,15 @@ int printMaximum(int n1, int n2, int n3) {
  }
 
 
+
+
 void printCounting(int n) {
 	for(int i=1; i<=n; i++) {
 		cout << i << endl;
 	}
 }
+
+
 
 void checkEvenOdd(int num) {
 	if(num % 2 == 0) {
@@ -68,6 +84,8 @@ void checkEvenOdd(int num) {
 		cout << "Odd Number" << endl;
 	}
 } 
+
+
 
 void findSumUptoN(int n) {
 	int sum = 0;
@@ -80,19 +98,23 @@ void findSumUptoN(int n) {
 	
 }
 
-void findSumEvenUptoN(int n) {
-	int sum = 0;
 
-	for(int i=1; i<=n; i++) {
-		if(i%2 ==0) {
-			sum = sum + i;
-		}
+
+// void findSumEvenUptoN(int n) {
+// 	int sum = 0;
+
+// 	for(int i=1; i<=n; i++) {
+// 		if(i%2 ==0) {
+// 			sum = sum + i;
+// 		}
 		
-	}
+// 	}
 
-	cout << "Final Sum: " << sum << endl;
+// 	cout << "Final Sum: " << sum << endl;
 	
-}
+// }
+
+
 
 //return true -> if N is a prime no.
 //return false -> if N is not a prime no.
