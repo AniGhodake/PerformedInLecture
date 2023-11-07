@@ -29,8 +29,12 @@ int main() {
 	v.push_back(40);
 	print(v);
 	print2(v);
- //  vector<char> v;
- //  v.push_back('a');
+  vector<char> v;
+  v.push_back('a');
+	  vector<char> v;
+  v.push_back('a');
+	  vector<char> v;
+  v.push_back('a');
 
  //  v.push_back('b');
 	// v.push_back('c');
@@ -42,11 +46,11 @@ int main() {
   // cout << "End Element: " << v[v.size() - 1] << endl;
   // cout << "End Element: " << v.back() << endl;
 
-  // // vector initialization
-  // vector<int>arr; // default with no data, 0 size
-  // vector<int>arr2(5, -1); // init with n size with specific data
-  // // arr2.push_back(50);
-  // // print(arr2);
+  // vector initialization
+  vector<int>arr; // default with no data, 0 size
+  vector<int>arr2(5, -1); // init with n size with specific data
+  // arr2.push_back(50);
+  // print(arr2);
 
   // vector<int>arr3 = {1,2,3,4,5};
   // // arr3.pop_back();
