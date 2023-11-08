@@ -1,50 +1,62 @@
 #include <iostream>
 using namespace std;
 
-// void printName(string name) {
-// 	for(int i=0; i<5; i++) {
-// 		cout << name << endl;
-// 	}
-// }
+void printName(string name) {
+	for(int i=0; i<5; i++) {
+		cout << name << endl;
+	}
+}
 
 
-//function delclaration
-// void printLine();
-
-// void printA() {
-// 	cout << "i am inside A" << endl;
-// }
-
-// void printSum(int a, int b, int c) {
-// 	int answer = a + b + c;
-// 	cout << "Sum is: " << answer << endl;
-// }
-
-// int printSum(int a, int b, int c) {
-// 	int ans = a + b + c;
-// 	return ans;
-// }
 
 
-// void messagePrint() {
-// 	cout << "Msg 1" << endl;
+function delclaration
+void printLine();
+
+void printA() {
+	cout << "i am inside A" << endl;
+}
+
+
+
+void printSum(int a, int b, int c) {
+	int answer = a + b + c;
+	cout << "Sum is: " << answer << endl;
+}
+
+
+
+int printSum(int a, int b, int c) {
+	int ans = a + b + c;
+	return ans;
+}
+
+
+
+
+void messagePrint() {
+	cout << "Msg 1" << endl;
 	
-// 	cout << "Msg 2" << endl;
-// 	return;
-// }
+	cout << "Msg 2" << endl;
+	return;
+}
 
-// void printMaximum(int num1, int num2, int num3) {
-// 	if(num1 >= num2 && num1 >= num3) {
-// 		cout << "Maximum is: " << num1 << endl;
-// 	}
-// 	else if(num2 >= num1 && num2 >= num3) {
-// 		cout << "Maximum is: " << num2 << endl;
-// 	}
-// 	else {
-// 		cout << "Maximum is: " << num3 << endl;
-// 	}
+
+
+void printMaximum(int num1, int num2, int num3) {
+	if(num1 >= num2 && num1 >= num3) {
+		cout << "Maximum is: " << num1 << endl;
+	}
+	else if(num2 >= num1 && num2 >= num3) {
+		cout << "Maximum is: " << num2 << endl;
+	}
+	else {
+		cout << "Maximum is: " << num3 << endl;
+	}
 	
-// }
+}
+
+
 
 int printMaximum(int n1, int n2, int n3) {
 	int ans1 = max(n1,n2);
@@ -54,11 +66,15 @@ int printMaximum(int n1, int n2, int n3) {
  }
 
 
+
+
 void printCounting(int n) {
 	for(int i=1; i<=n; i++) {
 		cout << i << endl;
 	}
 }
+
+
 
 void checkEvenOdd(int num) {
 	if(num % 2 == 0) {
@@ -68,6 +84,8 @@ void checkEvenOdd(int num) {
 		cout << "Odd Number" << endl;
 	}
 } 
+
+
 
 void findSumUptoN(int n) {
 	int sum = 0;
@@ -79,6 +97,8 @@ void findSumUptoN(int n) {
 	cout << "Final Sum: " << sum << endl;
 	
 }
+
+
 
 void findSumEvenUptoN(int n) {
 	int sum = 0;
@@ -93,6 +113,8 @@ void findSumEvenUptoN(int n) {
 	cout << "Final Sum: " << sum << endl;
 	
 }
+
+
 
 //return true -> if N is a prime no.
 //return false -> if N is not a prime no.
@@ -154,9 +176,9 @@ int main() {
     return 0;
 }
 
-// void printLine() {
-// 	for(int i=0; i<10; i++) {
-// 		cout << "Sundar ko Sundari pasand hai" << endl;
-// 	}
-// }
+void printLine() {
+	for(int i=0; i<10; i++) {
+		cout << "Sundar ko Sundari pasand hai" << endl;
+	}
+}
 
