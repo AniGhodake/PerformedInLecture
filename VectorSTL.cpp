@@ -51,17 +51,17 @@ int main() {
   // arr2.push_back(50);
   // print(arr2);
 
-  // vector<int>arr3 = {1,2,3,4,5};
-  // // arr3.pop_back();
-  // // print(arr3);
+  vector<int>arr3 = {1,2,3,4,5};
+  // arr3.pop_back();
+  // print(arr3);
 
-  // vector<int>arr4{1,2,3,4,5};
-  // // print(arr4);
+  vector<int>arr4{1,2,3,4,5};
+  // print(arr4);
 
-  // // how to copy vector
-  // vector<int> arr5 = {1,2,3,4,5};
-  // vector<int>arr6(arr5);
-  // print(arr6);
+  // how to copy vector
+  vector<int> arr5 = {1,2,3,4,5};
+  vector<int>arr6(arr5);
+  print(arr6);
 
   //  // in vector, dont tell size of vector.
   //  // just keep inserting, i will manage the allocations.
