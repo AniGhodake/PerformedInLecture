@@ -19,7 +19,17 @@ int getUnique(int arr[], int n) {
   return ans;
 }
 
-void sortZeroOne(int arr[], int n) {
+// void sortZeroOne(int arr[], int n) {
+//   int zeroCount = 0;
+//   int oneCount = 0;
+//   //stepA: Count 0 and 1
+//   for(int i=0; i<n; i++) {
+//     if(arr[i] == 0) 
+//       zeroCount++;
+//     if(arr[i] ==1) 
+//       oneCount++; 
+//   }
+  void sortZeroOne(int arr[], int n) {
   int zeroCount = 0;
   int oneCount = 0;
   //stepA: Count 0 and 1
