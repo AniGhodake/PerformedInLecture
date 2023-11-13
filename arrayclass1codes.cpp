@@ -42,18 +42,18 @@ void countZeroOne(int arr[], int size) {
   
 }
 
-int findMinimumInArray(int arr[], int size) {
-  //ans store variable
-  int minAns = INT_MAX;
+// int findMinimumInArray(int arr[], int size) {
+//   //ans store variable
+//   int minAns = INT_MAX;
 
-  for(int i=0; i<size; i++) {
-    if(arr[i] < minAns) {
-      minAns = arr[i];
-    }
-  }
+//   for(int i=0; i<size; i++) {
+//     if(arr[i] < minAns) {
+//       minAns = arr[i];
+//     }
+//   }
 
-  return minAns;
-}
+//   return minAns;
+// }
 void reverseArray(int arr[], int size) {
   
 
