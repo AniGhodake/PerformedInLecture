@@ -85,7 +85,7 @@ public:
     }
 };
 
-Missing Number:
+//Missing Number:
 
 class Solution {
 public:
@@ -103,7 +103,7 @@ public:
     }
 };
 
-ReArrange Array: 
+//ReArrange Array: 
 
 
 class Solution {
