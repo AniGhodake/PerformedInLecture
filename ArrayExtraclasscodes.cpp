@@ -1,4 +1,4 @@
-Segregate Negative Positive Numbers:
+//Segregate Negative Positive Numbers:
 
 #include <iostream>
 using namespace std;
