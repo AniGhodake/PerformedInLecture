@@ -68,7 +68,7 @@ public:
     }
 };
 
-Rotate Array:
+//Rotate Array:
 
 class Solution {
 public:
