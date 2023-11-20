@@ -35,7 +35,7 @@ int main() {
   return 0;
 }
 
-Sort COlors:
+//Sort COlors:
 
 class Solution {
 public:
