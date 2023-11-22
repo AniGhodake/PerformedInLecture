@@ -173,18 +173,18 @@ int main() {
 	// }
 	
 
-	// for(int row=0; row<n; row=row+1) {
-	// 	//spaces
-	// 	for(int col=0; col<row; col=col+1) {
-	// 		cout << " ";
-	// 	}
+	for(int row=0; row<n; row=row+1) {
+		//spaces
+		for(int col=0; col<row; col=col+1) {
+			cout << " ";
+		}
 
-	// 	//stars
-	// 	for(int col=0; col<n-row; col=col+1) {
-	// 		cout << "* ";
-	// 	}
-	// 	cout << endl;
-	// }
+		//stars
+		for(int col=0; col<n-row; col=col+1) {
+			cout << "* ";
+		}
+		cout << endl;
+	}
 
 	
 
