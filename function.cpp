@@ -10,7 +10,7 @@ void printName(string name) {
 
 
 
-function delclaration
+// function delclaration
 void printLine();
 
 void printA() {
@@ -26,10 +26,10 @@ void printSum(int a, int b, int c) {
 
 
 
-int printSum(int a, int b, int c) {
-	int ans = a + b + c;
-	return ans;
-}
+// int printSum(int a, int b, int c) {
+// 	int ans = a + b + c;
+// 	return ans;
+// }
 
 
 
@@ -58,12 +58,12 @@ void printMaximum(int num1, int num2, int num3) {
 
 
 
-int printMaximum(int n1, int n2, int n3) {
-	int ans1 = max(n1,n2);
-	int finalAns = max(ans1, n3);
-	// cout << "final Ans is: " << finalAns << endl;
-	return finalAns;
- }
+// int printMaximum(int n1, int n2, int n3) {
+// 	int ans1 = max(n1,n2);
+// 	int finalAns = max(ans1, n3);
+// 	// cout << "final Ans is: " << finalAns << endl;
+// 	return finalAns;
+//  }
 
 
 
@@ -141,37 +141,39 @@ bool checkPrime(int n) {
 
 int main() {
 
-	bool prime = checkPrime(1);
+	// bool prime = checkPrime(12);
 
-	if(prime) {
-		cout << "its a prime number" << endl;
-	}
-	else {
-		cout << "its not a prime number" << endl;
-	}
+	// if(prime) {
+	// 	cout << "its a prime number" << endl;
+	// }
+	// else {
+	// 	cout << "its not a prime number" << endl;
+	// }
 
 	//findSumEvenUptoN(10);
+
+	//findSumUptoN(10);
 	
-	//checkEvenOdd(110);
+	//checkEvenOdd(97);
 	
-	//printCounting(10);
+	// printCounting(10);
 
 	// int maximum = printMaximum(3, 30, 100);
 	// cout << " Maximum is: " << maximum << endl;
 
 
 	
-	//messagePrint();
+	// messagePrint();
 
-	// int sum = printSum(4, 4, 5);
-	// cout << "Sum is: " << sum << endl;
+	//int sum = printSum(4, 4, 5);
+	//cout << "Sum is: " << sum << endl;
 	
-	// printSum(1,2,7);
+	//printSum(1,2,7);
 
 	//function call
-	// printLine();
+	//printLine();
 	// cout << "Hi" << endl;
-	// printA();
+	printA();
 	
     return 0;
 }
