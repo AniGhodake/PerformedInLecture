@@ -86,18 +86,20 @@ int main() {
 
 	// cout << a << endl;
 
-	// int a = 101;
-	// if(true) {
-	// 	cout << "inside if number 1" << endl;
-	// 	//int a = 202;
-	// 	if(true) {
-	// 		cout << "inside if number 2" << endl; 
-	// 		//int a = 303;
-	// 		cout << a << endl;
-	// 	}
-	// }
+	int a = 101;
+	if(true) {
+		cout << a << endl;
+		cout << "inside if number 1" << endl;
+		int a = 202;
+		cout << a << endl;
+		if(true) {
+			cout << "inside if number 2" << endl; 
+			int a = 303;
+			cout << a << endl;
+		}
+	}
 	
- 	cout << age << endl;
+ 	//cout << age << endl;
 
 	
 	return 0;
