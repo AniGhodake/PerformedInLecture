@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // // Segregate Negative Positive Numbers:
+=======
+//Segregate Negative Positive Numbers:
+>>>>>>> fd24b5c6316c2280d8154ec633f5d5cc23b3008c
 
 // #include <iostream>
 // using namespace std;
@@ -35,7 +39,11 @@
 //   return 0;
 // }
 
+<<<<<<< HEAD
 // // Sort COlors:
+=======
+//Sort COlors:
+>>>>>>> fd24b5c6316c2280d8154ec633f5d5cc23b3008c
 
 // class Solution {
 // public:
@@ -103,7 +111,11 @@
 //     }
 // };
 
+<<<<<<< HEAD
 // //ReArrange Array: 
+=======
+//ReArrange Array: 
+>>>>>>> fd24b5c6316c2280d8154ec633f5d5cc23b3008c
 
 
 // class Solution {
@@ -209,5 +221,10 @@
 //         }
 
         
+<<<<<<< HEAD
 //     }
 // };
+=======
+    }
+};
+>>>>>>> fd24b5c6316c2280d8154ec633f5d5cc23b3008c

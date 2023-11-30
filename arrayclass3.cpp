@@ -68,6 +68,21 @@ int findMin(int arr[][4], int row, int col ){
   return minAns;
 }
 
+// void rowWiseSum(int arr[][4], int row, int col ){
+//   for(int i=0; i<row; i++) {
+    
+//     int sum = 0;
+    
+//     for(int j=0;j<col;j++) {
+      
+//       sum = sum + arr[i][j];
+      
+//     }
+    
+//     cout << sum << endl;
+//   }
+// }
+
 void rowWiseSum(int arr[][4], int row, int col ){
   for(int i=0; i<row; i++) {
     
@@ -82,6 +97,7 @@ void rowWiseSum(int arr[][4], int row, int col ){
     cout << sum << endl;
   }
 }
+
 
 void transpose(int arr[][4], int row, int col ) {
   
