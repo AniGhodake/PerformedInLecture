@@ -7,10 +7,10 @@
 // #include <iostream>
 // using namespace std;
 
-// void shiftNegativeOneSide(int arr[], int n) {
-//   int j = 0;
-//   // j-> memory block -> jaha pr main negative 
-//   //number store kr skta hu
+void shiftNegativeOneSide(int arr[], int n) {
+  int j = 0;
+  // j-> memory block -> jaha pr main negative 
+  //number store kr skta hu
 
 //   for(int index=0; index<n; index++) {
 //     //index -> entire array ko traverse karne k liye 
