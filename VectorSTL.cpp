@@ -1,8 +1,8 @@
-#include <iostream>
-#include <vector>
+#include<iostream>
+#include<vector>
 using namespace std;
 
-void print(vector<int> v) {
+void print(vector <int> v) {
   cout << "Printing vector " << endl;
   int size = v.size();
   for (int i = 0; i < size; i++) {
@@ -12,7 +12,7 @@ void print(vector<int> v) {
   cout << endl;
 }
 
-void print2(vector<int> v) {
+void print2(vector<int>v) {
   cout << "Printing vector method 2" << endl;
   for(auto it:v){
 	  cout<<it<<" ";
@@ -21,29 +21,25 @@ void print2(vector<int> v) {
 }
 
 int main() {
-	vector<int>v;
-	v.push_back(10);
-	v.push_back(20);
-	v.push_back(30);
-	v.push_back(40);
-	print(v);
-	print2(v);
-  vector<char> v;
-  v.push_back('a');
-	  vector<char> v;
-  v.push_back('a');
-	  vector<char> v;
-  v.push_back('a');
+	//vector <int> v;
+	// v.push_back(10);
+	// v.push_back(20);
+	// v.push_back(30);
+	// v.push_back(40);
+	// print(v);
+	//print2(v);
+  vector <char> v;
+  v.push_back('a'); 
+  v.push_back('b');
+	v.push_back('c');
+  print2(v);
 
- //  v.push_back('b');
-	// v.push_back('c');
+ //  v.push_back('d');
 
- // //  v.push_back('d');
-
- //  // cout << "Front element: " << v[0] << endl;
- //  // cout << "Front element: " << v.front() << endl;
- //  // cout << "End Element: " << v[v.size() - 1] << endl;
- //  // cout << "End Element: " << v.back() << endl;
+  // cout << "Front element: " << v[0] << endl;
+  // cout << "Front element: " << v.front() << endl;
+  // cout << "End Element: " << v[v.size() - 1] << endl;
+  // cout << "End Element: " << v.back() << endl;
 
  //  // vector initialization
  //  vector<int>arr; // default with no data, 0 size
@@ -55,13 +51,13 @@ int main() {
  //  // arr3.pop_back();
  //  // print(arr3);
 
-  vector<int>arr4{1,2,3,4,5};
+  //vector<int>arr4{1,2,3,4,5};
   // print(arr4);
 
   // how to copy vector
-  vector<int> arr5 = {1,2,3,4,5};
-  vector<int>arr6(arr5);
-  print(arr6);
+  // vector<int> arr5 = {1,2,3,4,5};
+  // vector<int>arr6(arr5);
+  // print(arr6);
 
   //  // in vector, dont tell size of vector.
   //  // just keep inserting, i will manage the allocations.
