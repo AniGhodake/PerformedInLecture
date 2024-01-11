@@ -26,9 +26,9 @@ int main() {
 	// int ans = (a << 2);
 	// cout << ans << endl;
 
-	// unsigned int n = -100;
-	// // int ans = (n >> 1) ;
-	// cout << ( n >> 1);
+	unsigned int n = -100;
+	// int ans = (n >> 1) ;
+	cout << ( n >> 1);
 
 	// int n = 10;
 	// cout << (n << -1);
@@ -47,14 +47,14 @@ int main() {
 
 	// cout << a ;
 
-	// int a = 10;
-	// cout << ((a++)*(++a)) << endl;
+	int a = 10;
+	cout << ((a++)*(++a)) << endl;
 
-	// for(int i=0; i<5; i++) {
-	// 	cout << i << endl;
-	// 	if(i == 3)
-	// 		break;
-	// }
+	for(int i=0; i<5; i++) {
+		cout << i << endl;
+		if(i == 3)
+			break;
+	}
 
 
 	// for(int i=0; i<=5; i++) {
@@ -79,12 +79,12 @@ int main() {
 	// cout << "or bhai i kya value h teri" << i << endl;
 
 
-	// if(true) {
-	// 	int a = 25;
-	// 	cout << a << endl;
-	// }
+	if(true) {
+		int a = 25;
+		cout << a << endl;
+	}
 
-	// cout << a << endl;
+	cout << a << endl;
 
 	int a = 101;
 	if(true) {
