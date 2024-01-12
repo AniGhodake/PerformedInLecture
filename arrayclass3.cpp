@@ -13,14 +13,14 @@ void printArray(int arr[][4], int row, int col) {
   }
 }
 
-void colWisePrint(int arr[][4], int row, int col ){
-  for(int i=0; i<col; i++) {
-    for(int j=0; j<row; j++) {
-      cout << arr[j][i] << " ";
-    }
-    cout << endl;
-  }
-}
+// void colWisePrint(int arr[][4], int row, int col ){
+//   for(int i=0; i<col; i++) {
+//     for(int j=0; j<row; j++) {
+//       cout << arr[j][i] << " ";
+//     }
+//     cout << endl;
+//   }
+// }
 
 bool findTarget(int arr[][4], int row, int col, int target ) {
   
