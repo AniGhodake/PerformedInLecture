@@ -68,20 +68,20 @@ int findMin(int arr[][4], int row, int col ){
   return minAns;
 }
 
-// void rowWiseSum(int arr[][4], int row, int col ){
-//   for(int i=0; i<row; i++) {
+void rowWiseSum(int arr[][4], int row, int col ){
+  for(int i=0; i<row; i++) {
     
-//     int sum = 0;
+    int sum = 0;
     
-//     for(int j=0;j<col;j++) {
+    for(int j=0;j<col;j++) {
       
-//       sum = sum + arr[i][j];
+      sum = sum + arr[i][j];
       
-//     }
+    }
     
-//     cout << sum << endl;
-//   }
-// }
+    cout << sum << endl;
+  }
+}
 
 void rowWiseSum(int arr[][4], int row, int col ){
   for(int i=0; i<row; i++) {
@@ -215,7 +215,7 @@ int main() {
   //  cout << v[i] <<" ";
   // }cout << endl;
 
-  //2D Array
+  // //2D Array
   // vector< vector<int> > arr(5, vector<int>(10,-1));
   // //row size -> arr.size()
   // for(int i=0; i<arr.size(); i++) {
@@ -225,7 +225,7 @@ int main() {
   //  cout << endl;
   // }
 
-  //Jagged Array  - HW
+  //Jagged Array  - HW             ///////////////////////////////////////////////////////////////////////////////////
 
   vector< vector<int> > brr;
 
