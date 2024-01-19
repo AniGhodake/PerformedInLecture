@@ -43,20 +43,20 @@ int main() {
 	}
 	
 
-	// for(int row=0; row<n; row=row+1) {
-	// 	int totalCol = row+1;
-	// 	for(int col=0; col<totalCol; col=col+1) {
+	for(int row=0; row<n; row=row+1) {
+		int totalCol = row+1;
+		for(int col=0; col<totalCol; col=col+1) {
 			
-	// 		if(col == totalCol -1){
-	// 			cout << row+1;
-	// 		}
-	// 		else {
-	// 			cout << row+1 << "*";
-	// 		}
+			if(col == totalCol -1){
+				cout << row+1;
+			}
+			else {
+				cout << row+1 << "*";
+			}
 			
-	// 	}
-	// 	cout << endl;
-	// }
+		}
+		cout << endl;
+	}
 
 	// for(int row=0; row<n; row=row+1) {
 	// 	//innner loop
