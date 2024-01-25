@@ -12,14 +12,14 @@ void shiftNegativeOneSide(int arr[], int n) {
   // j-> memory block -> jaha pr main negative 
   //number store kr skta hu
 
-//   for(int index=0; index<n; index++) {
-//     //index -> entire array ko traverse karne k liye 
-//     if(arr[index] < 0) {
-//       swap(arr[index], arr[j]);
-//       j++;
-//     }
-//   }
-// }
+  for(int index=0; index<n; index++) {
+    //index -> entire array ko traverse karne k liye 
+    if(arr[index] < 0) {
+      swap(arr[index], arr[j]);
+      j++;
+    }
+  }
+}
 
 // int main() {
 
